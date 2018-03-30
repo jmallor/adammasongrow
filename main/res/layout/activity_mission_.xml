@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/springscene"
+    tools:context="com.xaxzon.appstreaming.Mission_Activity">
+
+    <Button
+        android:id="@+id/mainmenuButton"
+        android:layout_width="314dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/mainpic"
+        android:onClick="mainmenuButton_onClick"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="342dp"
+        android:layout_height="375dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="start"
+
+        android:paddingBottom="4dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+        android:text="Our mission is to promote the best of our Appalachian region using video and digital media to encourage tourism, economic development and diversification, and artistic and cultural development. The goal of this project is to provide the go-to site to experience life in Appalachia. Appalachia Streaming is a project of the Foundation For Appalachian Advancement, a 501(c)(3) organization. For information about our organization or to support our various charitable efforts, please visit us at www.supportappalachia.org. Donations are tax deductible. Please Help support the Appalachian Region!"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962"/>
+</android.support.constraint.ConstraintLayout>

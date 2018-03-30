@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppStreaming</string>
+    <string name="red">First Pic</string>
+    <string name="blue">Second Pic</string>
+    <string name="orange">Third Pic</string>
+    <string name="green">Fourth</string>
+    <string name="pink">Fifth</string>
+</resources>
